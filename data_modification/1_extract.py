@@ -35,3 +35,9 @@ for ann in coco_data['annotations']:
         file.write(yolo_annotation)
 
 print("YOLO annotations saved to", output_dir)
+
+
+# TXT format:  class(1) bb coordinates(4)
+# Multiple rows in case of multiple objects
+ 
+# sample entry:   1 0.23 0.24 0.543 0.532
