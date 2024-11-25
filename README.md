@@ -1,12 +1,12 @@
-###data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
+#data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
 
-interface folder contains all code files used for the interface including the flask backend, templates, etc.
+#interface folder contains all code files used for the interface including the flask backend, templates, etc.
 
-model folder contains all the models obtained/used during the project.
+#model folder contains all the models obtained/used during the project.
 
-training_notebook.ipynb is the saved notebook from kaggle that we used for the training. Please follow through the code to see the following commands in action
+#training_notebook.ipynb is the saved notebook from kaggle that we used for the training. Please follow through the code to see the following commands in action
 
-Command to train the model:-
+#Command to train the model:-
 
 yolo task=detect mode=train model=<model path> data=<data.yaml> epochs=<number of epochs> lr=0.000833 optimizer=AdamW
 data.yaml content looks like following:
@@ -30,10 +30,10 @@ names:
 """
 
 
-Command to infer:-
+#Command to infer:-
 yolo task=detect mode=predict model=<model path> source=<inference data path>
 
-To run the interface, run the command:
+#To run the interface, run the command:
 pip install Flask werkzeug
 python main.py
 
