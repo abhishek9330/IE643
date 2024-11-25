@@ -1,4 +1,4 @@
-data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
+##data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
 
 interface folder contains all code files used for the interface including the flask backend, templates, etc.
 
@@ -15,7 +15,7 @@ yaml_content = """
 train: /kaggle/input/finalt/T/T9/images/train
 val: /kaggle/input/finalt/T/T9/images/train
 
-# Number of classes
+ Number of classes
 nc: 8
 
 names:
