@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = "your_secret_key"
 UPLOAD_FOLDER = "./uploads"
 RESULT_FOLDER = "./runs"
-MODEL_PATH = "bigT7.pt"  # Path to your YOLO model file
+MODEL_PATH = "../models/final_model.pt"  # Path to your YOLO model file
 
 # Ensure upload and result folders exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
