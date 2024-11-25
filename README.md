@@ -1,4 +1,4 @@
-##data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
+###data_modification folder contains all the scripts that were used to extract the labels, filter the classes, and apply motion blur.
 
 interface folder contains all code files used for the interface including the flask backend, templates, etc.
 
